@@ -226,7 +226,7 @@ As previously mentioned, most activities took place in instances where the engag
 ## [Data Distribution](#data-distribution)
 Finally, we checked the balance distribution of the dataset, revealing a relatively balanced dataset, as depicted in the figure below.
 
-[Data distribution](/visualisations/distribution.png)
+![Data distribution](/visualisations/distribution.png)
 
 ## [Correlation Matrix](#correlation-matrix)  
 The correlation matrix provides insights into the linear relationships between pairs of variables. Below is an analysis of the correlation:
@@ -236,10 +236,12 @@ The correlation matrix provides insights into the linear relationships between p
 - **Self-Correlation (Diagonal):** The self-correlation of a variable is always 1.00 since it's a correlation of a variable with itself.
 
 **Numerical Correlation**
-[Correlation Matrix for Numeric Variable](/visualisations/correlation-matrix1.png)
+
+![Correlation Matrix for Numeric Variable](/visualisations/correlation-matrix1.png)
 
 **Categorical Correlation**
-[Correlation Matrix for Categorical Variable](/visualisations/correlation-matrix2.png)
+
+![Correlation Matrix for Categorical Variable](/visualisations/correlation-matrix2.png)
 
 ## [Feature Engineering](#feature-engineering)
 Feature engineering was carried out to get better descriptive information about each row of the dataset and also aid in applying machine learning models to predict the likelihood of a flight being delayed. We converted the **day of week** column to their numerical equivalent using Python's` map()` function.
